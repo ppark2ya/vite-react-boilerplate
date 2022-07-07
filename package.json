@@ -11,7 +11,8 @@
     "lint": "eslint \"./src/**/*.{ts,tsx,js,jsx}\" --ignore-path .eslintignore",
     "lint:fix": "eslint --fix \"./src/**/*.{ts,tsx,js,jsx}\" --ignore-path .eslintignore",
     "lint:commit": "commitlint --edit",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "audit:fix": "npm_config_yes=true npx yarn-audit-fix"
   },
   "lint-staged": {
     "./src/**/*.{ts,tsx}": [
