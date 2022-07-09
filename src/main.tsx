@@ -5,6 +5,7 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
+import './twind.config';
 import './utils/disable-console';
 
 const rootElement = document.getElementById('root') as HTMLDivElement;
